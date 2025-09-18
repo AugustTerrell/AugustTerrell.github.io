@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf8">
-    <title>August Terrell's Resume</title>
-  </head>
-  
-  <body>
-    <h1>CSI 2470 Project 1: Resume</h1>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>August Terrell</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    
+    <body>
+        <!--Header div-->
+        <div id="header">
+            <h1>August Terrell</h1>
+            <a class="button" href="index.html">Resume</a>
+            <a class="button">Projects</a>
+            <a class="button">FRC</a>
+        </div>
+        
+        <!--Main div-->
+        <div id="main">
+            <!--Sidebar div-->
+            <div id="sidebar">
+                <h3>Jump To:</h3>
+                <div id="side-list">
+                    <p><a href="#about-target">About Me</a></p>
+                    <p><a href="#career-target">Career Focus</a></p>
+                    <p><a href="#edu-target">Education</a></p>
+                    <p><a href="#exp-target">Experience</a></p>
+                    <p><a href="#tech-skills">Technical Skills</a></p>
+                    <p><a href="#achievements">Achievements</a></p>
+                </div>
+            </div>
+            
+            <!--About me-->
+            <div id="about-me">
+                <h1 id="about-target">About Me:</h1>
+                <img id="profile-pic" src="images/profilepic.jpeg">
+                <p id="about-paragraph"><span>Name:</span> August (he/they)<br><span>Interests:</span> Movies, 
+                    music, reading, writing, programming.<br><span>Favorite Movie:</span> Everything Everywhere 
+                    All At Once<br><span>Favorite Book:</span> Lord of the Rings <br><span id="career-target">Fun Fact:</span> 
+                    I'm writing a fantasy book of my own!</p>
+            </div>
+            
+            <!--Career focus-->
+            <div id="career-focus">
+                <h3 id="edu-target">Career Focus: Software Engineer</h3>
+                <p id="career-text">I enjoy solving problems, and am very persistent and methodical in searching for
+                    issues. I also really enjoy creating new things and coming up with innovative new ideas. I find 
+                    difficult coding problems very intriguing. Because of all this, I aspire to become a software 
+                    engineer.</p>
+            </div>
+            
+            <!--Education-->
+            <div id="education">
+                <h3 id="edu-header">Education:</h3>
+                <p id="exp-target">Bachelor of Science, Computer Science</p>
+                <p>Oakland University, Rochester, MI</p>
+                <p>Expected Graduation: April 2028</p>
+                
+                <img id= "logo" src="images/oulogo.png">
+            </div>
+            
+            <!--Experience-->
+            <div id="experience">
+                <h2 id="exp-header">Experience:</h2>
+                
+                    <!--FRC experience-->
+                    <h3 class="exp-item-header"><span class="first">FIRST</span> Robotics Competition</h3>
+                    <ul>
+                        <li>Founding member and lead programmer of team 8612</li>
+                        <li>Went to state tournament 2/3 years</li>
+                        <li>Programmed swerve drive, vision tracking, and other processes with Java and VSCode</li>
+                        <li>Received MVP award senior year</li>
+                    </ul>
+                
+                    <!--AP Comp Sci experience-->
+                    <h3 class="exp-item-header">AP Computer Science Principles/Computer Science</h3>
+                    <ul>
+                        <li>Programmed choose-your-own-adventure game using Javascript</li>
+                        <li>Programmed rudimentary translation software for Tolkien Elvish using Java</li>
+                    </ul>
+                
+                    <!--e-LIS experience-->
+                    <h3 class="exp-item-header">e-LIS Support Technician, Oakland University (May 2025-present)</h3>
+                    <ul>
+                        <li>Investigated and solved issues with Moodle, Zoom, YuJa Verity, Panopto, etc.</li>
+                        <li>Assisted callers in troubleshooting issues live</li>
+                        <li>Taught students and faculty basic Moodle procedures</li>
+                    </ul>
+                
+                    <!--Goodwill experience-->
+                    <h3 class="exp-item-header">Cashier, Goodwill Industries (May 2024-August 2024)</h3>
+                    <ul>
+                        <li>Managed cash register, helped customers check out</li>
+                        <li>Kept shopping floor and dressing rooms clean and organized</li>
+                        <li>Restocked goods daily as needed</li>
+                    </ul>
+            </div>
+            
+            <!--Technical skills div-->
+            <div id="tech-skills">
+                <h3>Technical Skills:</h3>
+                <ul id="tech-text">
+                    <li>Programming Languages: HTML/CSS, Javascript, Java C</li>
+                    <li>Applications: Microsoft Office, VSCode, Github, Eclipse, Brackets</li>
+                    <li>Operating Systems: Widnows 10/11</li>
+                </ul>
+            </div>
+            
+            <!--Achievements-->
+            <div id="achievements">
+                <h2 id="achieve-header">Achievements:</h2>
+                
+                <!--FRC acheivements-->
+                <h3 class="achieve-item-header"><span class="first">FIRST</span> Robotics Competition</h3>
+                    <ul>
+                        <li>MVP Award</li>
+                        <li>Rookie All-Star Award</li>
+                        <li>2 state tournaments</li>
+                    </ul>
+                <h3 id="achieve-footer">More to come!</h3>
+            </div>
+        </div>
+        
+        <!--Footer div-->
+        <div id="footer">
+            <h1>Thanks for reading!</h1>
+            <p><a target="_blank" href="https://coolors.co/d6b85a-678d58-a6c48a-f1e9d2-784f41">Color Palette</a></p>
+        </div>
+    </body>
 </html>

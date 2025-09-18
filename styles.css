@@ -1,0 +1,258 @@
+body {
+    background-color: #F1E9D2;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    color: #D6B85A;
+}
+
+#header {
+    position: fixed;
+    z-index: 2;
+    width: 70%;
+    height: 120px;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+a.button {
+    padding: 6px;
+    border: 1px outset #784F41;
+    border-radius: 3px;
+    color: #784F41;
+    background-color: #A6C48A;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#main {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    top: 160px;
+    color: #784F41;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+}
+
+#sidebar {
+    position: fixed;
+    z-index: 2;
+    float: left;
+    width: 10%;
+    height: 400px;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-size: 22px;
+    font-family: 'Cambria', serif;
+    font-weight: bold;
+    border-radius: 3px; 
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
+
+#side-list {
+    z-index: 1;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+#about-me {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    left: 210px;
+    top: -25px;
+}
+
+#profile-pic {
+    z-index: 1;
+    width: 300px;
+    border: 6px ridge #D6B85A;
+}
+
+#about-paragraph {
+    position: absolute;
+    z-index: 1;
+    left: 320px;
+    top: 80px;
+    width: 505px;
+    height: 267px;
+    background-color: #A6C48A;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+    font-size: 20px;
+    line-height: 1.75em;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+span {
+    z-index: 1;
+    font-weight: bold;
+}
+
+#career-focus {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 375px;
+    width: 66.3%;
+    color: #D6B85A;
+    background-color: #784F41;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    font-size: 18px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#career-text {
+    z-index: 1;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+}
+
+#education {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 555px;
+    width: 66.3%;
+    color: #784F41;
+    background-color: #A6C48A;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+    font-size: 18px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#edu-header {
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+}
+
+#logo {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 420px;
+    width: 400px;
+}
+
+#experience {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 755px;
+    width: 70.5%;
+    color: #784F41;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+}
+
+#exp-header {
+    width: 96.3%;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.exp-item-header {
+    width: fit-content;
+    background-color: #A6C48A;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+
+.first {
+    font-style: italic;
+}
+
+#tech-skills {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 1360px;
+    width: 66.3%;
+    color: #D6B85A;
+    background-color: #784F41;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    font-size: 18px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tech-text {
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+}
+
+#achievements {
+    position: absolute;
+    z-index: 1;
+    left: 210px;
+    top: 1525px;
+    width: 70.5%;
+    color: #784F41;
+    font-family: 'Andada Pro' 'Andale Mono', monospace;
+}
+
+#achieve-header {
+    width: 96.3%;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.achieve-item-header {
+    width: fit-content;
+    background-color: #A6C48A;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+
+#achieve-footer {
+    width: 96.3%;
+    background-color: #A6C48A;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+
+#footer {
+    position: absolute;
+    z-index: 2;
+    width: 70.7%;
+    height: 75px;
+    top: 1950px;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    text-align: center;
+    line-height: 0.5em;
+    border-radius: 3px;
+    padding: 5px;
+}

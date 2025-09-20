@@ -305,7 +305,7 @@ a.button {
     #stats-image {
         position: absolute;
         left: 500px;
-        top: 100px;
+        top: 90px;
         width: 300px;
     }
 
@@ -353,3 +353,4 @@ a.button {
     border-radius: 3px;
     padding: 5px;
 }
+

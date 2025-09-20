@@ -1,3 +1,4 @@
+/*Stuff for all pages*/
 body {
     background-color: #F1E9D2;
     margin-left: 200px;
@@ -10,9 +11,10 @@ a {
 
 #header {
     position: fixed;
+    top: 0;
     z-index: 2;
     width: 70%;
-    height: 120px;
+    height: 110px;
     color: #D6B85A;
     background-color: #678D58;
     font-family: 'Arbutus Slab', 'Cambria', serif;
@@ -36,7 +38,7 @@ a.button {
     position: absolute;
     z-index: 1;
     width: 80%;
-    top: 160px;
+    top: 140px;
     color: #784F41;
     font-family: 'Arbutus Slab', 'Cambria', serif;
 }
@@ -54,6 +56,7 @@ a.button {
     font-weight: bold;
     border-radius: 3px; 
     padding-left: 22px;
+    padding-right: 10px;
     padding-bottom: 20px;
 }
 
@@ -64,100 +67,153 @@ a.button {
     line-height: 2em;
 }
 
-#about-me {
-    position: absolute;
-    z-index: 1;
-    width: 60%;
-    left: 210px;
-    top: -25px;
-}
+    /*Stuff for Resume page*/
+    #about-me {
+        position: absolute;
+        left: 210px;
+        z-index: 1;
+        width: 60%;
+    }
 
-#profile-pic {
-    z-index: 1;
-    width: 300px;
-    border: 6px ridge #D6B85A;
-}
+    #profile-pic {
+        z-index: 1;
+        width: 300px;
+        border: 6px ridge #D6B85A;
+    }
 
-#about-paragraph {
-    position: absolute;
-    z-index: 1;
-    left: 320px;
-    top: 80px;
-    width: 505px;
-    height: 267px;
-    background-color: #A6C48A;
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-    font-size: 20px;
-    line-height: 1.75em;
-    border-radius: 3px;
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 0px;
-}
+    #about-paragraph {
+        position: absolute;
+        z-index: 1;
+        left: 320px;
+        top: 80px;
+        width: 505px;
+        height: 267px;
+        background-color: #A6C48A;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+        font-size: 20px;
+        line-height: 1.75em;
+        border-radius: 3px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
 
-span {
-    z-index: 1;
-    font-weight: bold;
-}
+    span {
+        z-index: 1;
+        font-weight: bold;
+    }
 
-#career-focus {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 375px;
-    width: 66.3%;
-    color: #D6B85A;
-    background-color: #784F41;
-    font-family: 'Arbutus Slab', 'Cambria', serif;
-    font-size: 18px;
-    border-radius: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    #career-focus {
+        position: absolute;
+        z-index: 1;
+        left: 210px;
+        top: 400px;
+        width: 66.3%;
+        color: #D6B85A;
+        background-color: #784F41;
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+        font-size: 18px;
+        border-radius: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-#career-text {
-    z-index: 1;
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-}
+    #career-text {
+        z-index: 1;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+    }
 
-#education {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 555px;
-    width: 66.3%;
-    color: #784F41;
-    background-color: #A6C48A;
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-    font-size: 18px;
-    border-radius: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    #education {
+        position: absolute;
+        z-index: 1;
+        left: 210px;
+        top: 580px;
+        width: 66.3%;
+        color: #784F41;
+        background-color: #A6C48A;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+        font-size: 18px;
+        border-radius: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-#edu-header {
-    font-family: 'Arbutus Slab', 'Cambria', serif;
-}
+    #edu-header {
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+    }
 
-#logo {
-    position: absolute;
-    z-index: 1;
-    top: 40px;
-    left: 420px;
-    width: 400px;
-}
+    #logo {
+        position: absolute;
+        z-index: 1;
+        top: 40px;
+        left: 420px;
+        width: 400px;
+    }
 
-#experience {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 755px;
-    width: 70.5%;
-    color: #784F41;
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-}
+    #experience {
+        position: absolute;
+        z-index: 1;
+        left: 210px;
+        top: 780px;
+        width: 70.5%;
+        color: #784F41;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+    }
 
-#exp-header {
+    #exp-header {
+        width: 96.3%;
+        color: #D6B85A;
+        background-color: #678D58;
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    .exp-item-header {
+        width: fit-content;
+        background-color: #A6C48A;
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 3px;
+    }
+
+    .first {
+        font-style: italic;
+    }
+
+    #tech-skills {
+        position: absolute;
+        z-index: 1;
+        left: 210px;
+        top: 1385px;
+        width: 66.3%;
+        color: #D6B85A;
+        background-color: #784F41;
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+        font-size: 18px;
+        border-radius: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #tech-text {
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+    }
+
+    #achievements {
+        position: absolute;
+        z-index: 1;
+        left: 210px;
+        top: 1550px;
+        width: 70.5%;
+        color: #784F41;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+    }
+
+.div-header {
     width: 96.3%;
     color: #D6B85A;
     background-color: #678D58;
@@ -166,7 +222,7 @@ span {
     padding: 10px;
 }
 
-.exp-item-header {
+.div-item-header {
     width: fit-content;
     background-color: #A6C48A;
     font-family: 'Arbutus Slab', 'Cambria', serif;
@@ -177,60 +233,7 @@ span {
     border-radius: 3px;
 }
 
-.first {
-    font-style: italic;
-}
-
-#tech-skills {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 1360px;
-    width: 66.3%;
-    color: #D6B85A;
-    background-color: #784F41;
-    font-family: 'Arbutus Slab', 'Cambria', serif;
-    font-size: 18px;
-    border-radius: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#tech-text {
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-}
-
-#achievements {
-    position: absolute;
-    z-index: 1;
-    left: 210px;
-    top: 1525px;
-    width: 70.5%;
-    color: #784F41;
-    font-family: 'Andada Pro' 'Andale Mono', monospace;
-}
-
-#achieve-header {
-    width: 96.3%;
-    color: #D6B85A;
-    background-color: #678D58;
-    font-family: 'Arbutus Slab', 'Cambria', serif;
-    border-radius: 3px;
-    padding: 10px;
-}
-
-.achieve-item-header {
-    width: fit-content;
-    background-color: #A6C48A;
-    font-family: 'Arbutus Slab', 'Cambria', serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    border-radius: 3px;
-}
-
-#achieve-footer {
+.div-footer {
     width: 96.3%;
     background-color: #A6C48A;
     font-family: 'Arbutus Slab', 'Cambria', serif;
@@ -242,12 +245,106 @@ span {
     border-radius: 3px;
 }
 
+    /*Stuff for Projects page*/
+    .indent {
+        margin: 20px;
+    }
+
+    #csi-2999 {
+        position: absolute;
+        left: 210px;
+        width: 70.5%;
+        color: #784F41;
+        font-family: 'Andada Pro' 'Andale Mono', monospace;
+    }
+
+    /*Stuff for FRC page*/
+    .frc-div-header {
+        width: 96.3%;
+        color: #784F41;
+        background-color: #A6C48A;
+        font-family: 'Arbutus Slab', 'Cambria', serif;
+        border-radius: 3px;
+        padding: 10px;
+    }
+
+    #auton-routines {
+        position: absolute;
+        left: 210px;
+        width: 70.5%;
+    }
+
+    #auton-list {
+        position: absolute;
+        left: 255px;
+        top: 90px;
+        font-size: 20px;
+        line-height: 2em;
+    }
+
+    #robot-image {
+        position: absolute;
+        top: 284px;
+        left: 275px;
+        width: 450px;
+        border: 4px solid #D6B85A;
+    }
+
+    #frc-accomplishments {
+        position: absolute;
+        left: 210px;
+        top: 555px;
+        width: 70.5%;
+    }
+
+    .frc-list {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    #stats-image {
+        position: absolute;
+        left: 500px;
+        top: 100px;
+        width: 300px;
+    }
+
 #footer {
     position: absolute;
     z-index: 2;
     width: 70.7%;
     height: 75px;
-    top: 1950px;
+    top: 1975px;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    text-align: center;
+    line-height: 0.5em;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#footer-projects {
+    position: absolute;
+    z-index: 2;
+    width: 70.7%;
+    height: 75px;
+    top: 720px;
+    color: #D6B85A;
+    background-color: #678D58;
+    font-family: 'Arbutus Slab', 'Cambria', serif;
+    text-align: center;
+    line-height: 0.5em;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#footer-frc {
+    position: absolute;
+    z-index: 2;
+    width: 70.7%;
+    height: 75px;
+    top: 1050px;
     color: #D6B85A;
     background-color: #678D58;
     font-family: 'Arbutus Slab', 'Cambria', serif;

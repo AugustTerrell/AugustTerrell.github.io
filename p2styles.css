@@ -1,0 +1,95 @@
+body {
+    background-color: #1F2022;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Georgia', 'serif';
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 70%;
+    background-color: black;
+    color: red;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#main-content {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 50%;
+    height: 350px;
+    background-color: darkred;
+    border: 8px solid darkred;
+    border-radius: 6px;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#cursed-amulet {
+    position: absolute;
+    top: 270px;
+    right: 240px;
+    width: 40px;
+    z-index: 3;
+}
+
+#character {
+    position: absolute;
+    top: 150px;
+    left: 310px;
+    width: 50px;
+    z-index: 2;
+}
+
+#failure {
+    visibility: hidden;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+#text-and-options {
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    transform: translate(-53%, 0);
+    color: red;
+    text-align: center;
+}
+
+#options {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    line-height: 0.75em;
+    text-align: left;
+}
+
+a.button {
+    padding: 6px;
+    border: 1px outset red;
+    border-radius: 3px;
+    color: red;
+    background-color: #1F2022;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.strikethrough {
+    text-decoration-line: line-through;
+}
